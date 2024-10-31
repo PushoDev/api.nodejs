@@ -1,0 +1,44 @@
+// Colores a los textos en la consola:
+
+const rojo = "\x1b[31m%s\x1b[0m";
+const verde = "\x1b[32m%s\x1b[0m";
+const amarillo = "\x1b[33m%s\x1b[0m";
+const azul = "\x1b[34m%s\x1b[0m";
+const magenta = "\x1b[35m%s\x1b[0m";
+const cian = "\x1b[36m%s\x1b[0m";
+
+console.log(rojo, "Este texto es Rojo");
+console.log(verde, "Este texto es Verde");
+console.log(amarillo, "Este texto es Amarillo");
+console.log(azul, "Este texto es Azul");
+console.log(magenta, "Este texto es Magenta");
+console.log(cian, "Este texto es Cian");
+
+Colores
+
+Rojo: \x1b[31m%s\x1b[0m
+Verde: \x1b[32m%s\x1b[0m
+Azul: \x1b[34m%s\x1b[0m
+Magenta: \x1b[35m%s\x1b[0m
+Cyan: \x1b[36m%s\x1b[0m
+Blanco: \x1b[37m%s\x1b[0m
+
+Fondos
+Negro: \x1b[40m%s\x1b[0m
+Rojo claro: \x1b[41m%s\x1b[0m
+Verde claro: \x1b[42m%s\x1b[0m
+Azul claro: \x1b[44m%s\x1b[0m
+Magenta claro: \x1b[45m%s\x1b[0m
+Cyan claro: \x1b[46m%s\x1b[0m
+Blanco claro: \x1b[47m%s\x1b[0m
+
+
+Estilos
+Negrita: \x1b[1m%s\x1b[0m
+Cursiva: \x1b[3m%s\x1b[0m
+Subrayado: \x1b[4m%s\x1b[0m
+Invertir: \x1b[7m%s\x1b[0m
+
+console.log("\x1b[31m%s\x1b[0m", "Hola mundo"); // Rojo
+console.log("\x1b[32m%s\x1b[0m", "Hola mundo"); // Verde
+console.log("\x1b[34m%s\x1b[0m", "Hola mundo"); // Azul
