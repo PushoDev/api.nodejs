@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "nombre": "Luis Alberto",
+    "username": "Pusho.dev",
+    "email": "bethocubans1990@gmail.com",
+    "password": "hash:123456",
+    "fechaCreacion": "2023-02-20T14:30:00.000Z",
+    "fechaUltimaActualizacion": "2023-02-20T14:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Lázaro",
+    "username": "ElToco",
+    "email": "lazaro@example.com",
+    "password": "hash:password1",
+    "fechaCreacion": "2023-02-20T14:30:00.000Z",
+    "fechaUltimaActualizacion": "2023-02-20T14:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "nombre": "Alberto",
+    "username": "IslaMia",
+    "email": "alberto@example.com",
+    "password": "hash:password2",
+    "fechaCreacion": "2023-02-20T14:30:00.000Z",
+    "fechaUltimaActualizacion": "2023-02-20T14:30:00.000Z"
+  }
+]

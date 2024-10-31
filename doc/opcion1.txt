@@ -1,0 +1,11 @@
+Auth de Usuarios
+Si no existe Regsitrarlo
+
+Opciones de Regsitro Gmail or Hotmail
+
+
+// Route Inicio
+router.get("/", async (req, res) => {
+  console.log(initialProject, "Login del Proyecto");
+  res.json(usuarios);
+});
